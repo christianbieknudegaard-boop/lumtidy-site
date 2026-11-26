@@ -157,3 +157,9 @@ nav .langs a[aria-current] { color: var(--text); }
 @media (max-width: 520px) {
   .grid.two { grid-template-columns: 1fr; }
 }
+
+/* Two store buttons side by side (App Store + Android) */
+.ctas { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; margin-top: 30px; }
+.ctas .cta { margin-top: 0; }
+.cta.alt { background: var(--card); color: var(--text); border: 1px solid var(--stroke); box-shadow: none; backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); }
+span.cta { cursor: default; }
